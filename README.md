@@ -13,7 +13,7 @@ Passo 2: Executar a instalação em lote
 
 Passo 3: Levantar a aplicação
 ```bash
-    uvicorn main_3:app --reload
+    uvicorn main:app --reload
 ```
 
 Passo 4: Link para visualização

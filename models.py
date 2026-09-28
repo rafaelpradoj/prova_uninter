@@ -1,10 +1,6 @@
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
+from database import Base
 
-# aqui estou criando a classe base declarativa
-Base = declarative_base()
-
-# aqui estou definindo a classe mapeada com os campos solicitados
 class AlunoModel(Base):
     __tablename__ = 'alunos'
     
